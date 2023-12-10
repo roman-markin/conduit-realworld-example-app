@@ -9,12 +9,11 @@ module.exports = {
     logging: process.env.DEV_DB_LOGGING,
   },
   test: {
-    username: process.env.TEST_DB_USERNAME,
-    password: process.env.TEST_DB_PASSWORD,
-    database: process.env.TEST_DB_NAME,
-    host: process.env.TEST_DB_HOSTNAME,
-    dialect: process.env.TEST_DB_DIALECT,
-    logging: process.env.TEST_DB_LOGGING,
+    username: "postgres",
+    password: "zyxxyz",
+    database: "conduit",
+    host: "postgres",
+    dialect: "postgres"
   },
   production: {
     username: process.env.PROD_DB_USERNAME,
